@@ -19,6 +19,9 @@ Composer
 Node.js + npm
 
 ### Backend
+Bem direto ao ponto. No windows, tive uma dificuldade pois de alguma maneira, algumas extensions estavam comentadas, então tive de descomentar, exemplo o ";extension=pdo_mysql" por causa do mysql.
+Se algum passo der errado, modificar o php.ini e descomentar algumas extensions necessárias.
+
 ```bash
 cd backend
 cp .env.example .env
