@@ -54,6 +54,7 @@ Tive que aprender em uma única tarde, tanto o VueJS tanto o Laravel, em ambos n
 ## 💡 Melhorias futuras
 - No backend, configurar responses globais para erros, success etc. Padronizando as responses para algo mais esclarecedor
 - No front, também configurar os types (models) das responses para que fique mais fácil de debugar e acessar os dados
+- Diminuir o tamanho do bundle no backend, percebi que a pasta vendor está muito grande (748mb). Porém ainda nao pesquisei se é normal do laravel ou o projeto já vem com esse overload de dados. É um caso de estudo.
 - Fazer um pequeno sistema de notifications quando um user dar like em alguma ideia>usuário é notificado tanto por email tanto no próprio client (app)
 - Fazer mais uma separaçao para além do controller, usar repositories para tratar dados vindos do backend
 - Melhorias de interface, fazendo refetch mais fluído sem ter de recarregar todos de uma vez
